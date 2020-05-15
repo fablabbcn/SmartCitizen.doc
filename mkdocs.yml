@@ -5,101 +5,140 @@ site_url: https://docs.smartcitizen.me/
 
 # https://www.mkdocs.org/user-guide/writing-your-docs/#configure-pages-and-navigation
 
-nav:
-  - Main: 
-    - Welcome: index.md
-    - Hardware: 
-      - Smart Citizen Kit: 
-        - Description: Smart Citizen Kit.md
-        - Components:
-          - Data Board: Components/Data Board.md
-          - Urban Board: Components/Urban Board.md
-        - Expanding the SCK: 
-          - Auxiliary Connector: Components/Auxiliary Connector.md
-          - Soil Sensors: Components/Soil.md
-          - Water Sensors: Components/Water.md
-        - Enclosures: Components/Enclosures.md
-      - Smart Citizen Station: 
-        - Description: Smart Citizen Station.md
-        - Components:
-          - Gas Pro Sensor Board: Components/Gases Pro Board.md
-          - PM Board: Components/PM Board.md
-      - Sensor Knowledge:
-        - Deploying sensors: Components/Deployments.md
-        - Particulate Matter: Components/sensors/PM Sensors.md
-        - Noise: Components/sensors/Noise.md
-        - Metal Oxide Sensors:
-          - What to expect: Components/sensors/Metal Oxide.md
-          - eCO2/TVOC: Components/sensors/CCS811.md
-        - Electrochemical Sensors: Components/sensors/Electrochemical Sensors.md
-      - Firmware: Components/Firmware.md
-      - Architecture: Components/index.md
-    - FAQ: _FAQ.md
-    - Troubleshooting: Troubleshooting.md
-  - Platform:
-    - Main: Sensor Platform.md
-    - Smart Citizen API: Sensor Platform/Smart Citizen API.md
-  - Data Analysis:
-    - Main: Data Analysis.md
-  - Use cases:
-    - Main: Use cases.md
-    - Citizen Sensing Toolkit: Use cases/Citizen Sensing Toolkit.md
-    - European Projects: Use cases/European Projects.md
-    - Academic publications: Use cases/Academic Publications.md
-    - Additional material: Use cases/Presentations.md
-  - Guides:
-    - Main: Guides.md
-    - Getting started:
-      - Onboarding Sensors: Guides/Onboarding Sensors.md
-      - Downloading platform data: Guides/Downloading the Data.md
-      - Uploading SD-card data: Guides/Uploading SD Card Data.md
-      - Updating the Wi-Fi: Guides/Updating the Wi-Fi.md
-      - Using the Shell: Guides/Using the Shell.md
-    - Firmware:
-      - Update the firmware: Guides/Update the firmware.md
-      - Edit the firmware: Guides/Edit the Firmware.md
-      - Debug the firmware: Guides/Debug the firmware.md
-    - Data Analysis:
-      - Framework Installation: Guides/Install the framework.md
-      - Organise your data: Guides/Organise your data.md
-      - Model your sensor data: Guides/Creating Models for Sensors Calibration.md
-      - Analyse your data in batch: Guides/Analyse your data in batch.md
-      - Make reports of your data: Guides/Make reports of your data.md
-      - Uploading data to zenodo: Guides/Upload data to zenodo.md
-      - Creating interfaces: Guides/Creating Interfaces.md
-  - Legacy Hardware:
-    - Smart Citizen 1.1:
-      - Main: Legacy Hardware/index.md
-      - Hardware: Legacy Hardware/Hardware.md
-      - Command Line: Legacy Hardware/Command Line.md
-      - FAQ: Legacy Hardware/Faq.md
-      - Troubleshooting: Legacy Hardware/Troubleshooting.md
-    - Smart Citizen 2.0:
-      - Main: Legacy Hardware/sck.md
-      - About the CO-NO2 MOs: Components/sensors/SGX MICS.md
+# nav:
+#   - Main: 
+#     - Welcome: index.md
+#     - Hardware: 
+#       - Smart Citizen Kit: 
+#         - Description: Smart Citizen Kit.md
+#         - Components:
+#           - Data Board: Components/Data Board.md
+#           - Urban Board: Components/Urban Board.md
+#         - Expanding the SCK: 
+#           - Auxiliary Connector: Components/Auxiliary Connector.md
+#           - Soil Sensors: Components/Soil.md
+#           - Water Sensors: Components/Water.md
+#         - Enclosures: Components/Enclosures.md
+#       - Smart Citizen Station: 
+#         - Description: Smart Citizen Station.md
+#         - Components:
+#           - Gas Pro Sensor Board: Components/Gases Pro Board.md
+#           - PM Board: Components/PM Board.md
+#       - Sensor Knowledge:
+#         - Deploying sensors: Components/Deployments.md
+#         - Particulate Matter: Components/sensors/PM Sensors.md
+#         - Noise: Components/sensors/Noise.md
+#         - Metal Oxide Sensors:
+#           - What to expect: Components/sensors/Metal Oxide.md
+#           - eCO2/TVOC: Components/sensors/CCS811.md
+#         - Electrochemical Sensors: Components/sensors/Electrochemical Sensors.md
+#       - Firmware: Components/Firmware.md
+#       - Architecture: Components/index.md
+#     - FAQ: _FAQ.md
+#     - Troubleshooting: Troubleshooting.md
+#   - Platform:
+#     - Main: Sensor Platform.md
+#     - Smart Citizen API: Sensor Platform/Smart Citizen API.md
+#   - Data Analysis:
+#     - Main: Data Analysis.md
+#   - Use cases:
+#     - Main: Use cases.md
+#     - Citizen Sensing Toolkit: Use cases/Citizen Sensing Toolkit.md
+#     - European Projects: Use cases/European Projects.md
+#     - Academic publications: Use cases/Academic Publications.md
+#     - Additional material: Use cases/Presentations.md
+#   - Guides:
+#     - Main: Guides.md
+#     - Getting started:
+#       - Onboarding Sensors: Guides/Onboarding Sensors.md
+#       - Downloading platform data: Guides/Downloading the Data.md
+#       - Uploading SD-card data: Guides/Uploading SD Card Data.md
+#       - Updating the Wi-Fi: Guides/Updating the Wi-Fi.md
+#       - Using the Shell: Guides/Using the Shell.md
+#     - Firmware:
+#       - Update the firmware: Guides/Update the firmware.md
+#       - Edit the firmware: Guides/Edit the Firmware.md
+#       - Debug the firmware: Guides/Debug the firmware.md
+#     - Data Analysis:
+#       - Framework Installation: Guides/Install the framework.md
+#       - Organise your data: Guides/Organise your data.md
+#       - Model your sensor data: Guides/Creating Models for Sensors Calibration.md
+#       - Analyse your data in batch: Guides/Analyse your data in batch.md
+#       - Make reports of your data: Guides/Make reports of your data.md
+#       - Uploading data to zenodo: Guides/Upload data to zenodo.md
+#       - Creating interfaces: Guides/Creating Interfaces.md
+#   - Legacy Hardware:
+#     - Smart Citizen 1.1:
+#       - Main: Legacy Hardware/index.md
+#       - Hardware: Legacy Hardware/Hardware.md
+#       - Command Line: Legacy Hardware/Command Line.md
+#       - FAQ: Legacy Hardware/Faq.md
+#       - Troubleshooting: Legacy Hardware/Troubleshooting.md
+#     - Smart Citizen 2.0:
+#       - Main: Legacy Hardware/sck.md
+#       - About the CO-NO2 MOs: Components/sensors/SGX MICS.md
 
+# Copyright
+
+
+# Configuration
 theme:
-  name: 'material'
-  custom_dir: 'custom_theme'
-  palette:
-    primary: 'blue'
-    accent: 'blue'
-  logo: 'assets/images/logo.svg'
-  favicon: 'assets/images/favicon.ico'
+  name: material
+
+  # 404 page
+  static_templates:
+    - 404.html
+
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+
+  # Default values, taken from mkdocs_theme.yml
+  language: en
   feature:
     tabs: true
+  palette:
+    primary: indigo
+    accent: indigo
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/images/favicon.png
+  logo: assets/images/eu-flag.jpg
+extra_css:
+  - 'https://fonts.googleapis.com/css?family=Noto+Sans+JP|Noto+Serif+JP'
+  - 'https://fonts.googleapis.com/css?family=Open+Sans:600,800'
+  # - assets/css/extra.css
 
-extra:
-  social:
-    - type: 'twitter'
-      link: 'https://twitter.com/smartcitizenkit'
-    - type: 'facebook'
-      link: 'https://www.facebook.com/smartcitizenBCN/'
-  project: 'The Smart Citizen as part of the iSCAPE project has received funding from the European Community’s H2020 Programme under Grant Agreement No. 689954.'
-  footer_logo: '/assets/images/eu-flag.png'
-  license: 'CC Attribution-NonCommercial-ShareAlike 4.0 International'
-  repo_name: smartcitizen-docs
-  repo_url: https://github.com/fablabbcn/smartcitizen-docs
+# Plugins
+plugins:
+  - search
+  #- minify:
+  #    minify_html: true
+  - with-pdf:
+      cover_title: iSCAPE Sensor Platforms Documentation
+      cover_subtitle: Smart Citizen sensor platform documentation for the iSCAPE project
+      toc_level: 1
+      copyright: 'ISCAPE D3.13 Sensor Platforms Documentation (rev 2)'
+      author: 'test'
+      # excludes_children:
+      #   - 'release-notes/:upgrading'
+      #   - 'release-notes/:changelog'
+      output_path: ../document.pdf
+      #debug_html: true
+      #verbose: true
+
+# extra:
+#   social:
+#     - type: 'twitter'
+#       link: 'https://twitter.com/smartcitizenkit'
+#     - type: 'facebook'
+#       link: 'https://www.facebook.com/smartcitizenBCN/'
+#   project: 'The Smart Citizen as part of the iSCAPE project has received funding from the European Community’s H2020 Programme under Grant Agreement No. 689954.'
+#   footer_logo: '/assets/images/eu-flag.png'
+#   license: 'CC Attribution-NonCommercial-ShareAlike 4.0 International'
+#   repo_name: smartcitizen-docs
+#   repo_url: https://github.com/fablabbcn/smartcitizen-docs
 
 markdown_extensions:
   - admonition

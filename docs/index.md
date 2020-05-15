@@ -1,13 +1,5 @@
-Welcome!
+Introduction
 ========
-
-!!! info "A note about versions"
-
-    <a href="https://www.iscapeproject.eu/"><img src="https://i.imgur.com/ud8lUOo.png" width="120" alt=""></a>
-
-    The new [**Smart Citizen Kit**](Smart Citizen Kit) and the [**Smart Citizen Station**](Smart Citizen Station) development has been developed as part of the [iSCAPE project](https://www.iscapeproject.eu/) under European Community’s H2020 Programme under Grant Agreement No. [689954](https://cordis.europa.eu/project/rcn/202639/en)
-
-![](https://i.imgur.com/0U9T29b.jpg)
 
 ## Sections
 
@@ -20,8 +12,6 @@ Welcome!
 * **Use cases:** Contains documentation and [**use cases**](Use Cases) examples how to use our tools with your local community.
 
 * **Guides:** Contains step-by-step [**guides**](Guides) for different features of the kit, how to get started, use the shell, or make some more advanced analysis of the sensor readings!
-
-* **Legacy Hardware:** Are you a pioneer of participatory sensing looking for the original SCK 1.0 and SCK 1.1 documentation? Check the [**Legacy Hardware**](Legacy Hardware) section!
 
 ## Guides
 
@@ -42,7 +32,7 @@ The documentation contains multiple [guides](/Guides) as step-by-step tutorials 
 
 ## Open Source
 
-**We're against black boxes!**
+**Licensing**
 
 The entire project is released under open source licenses: 
 

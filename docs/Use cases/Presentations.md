@@ -1,2 +1,0 @@
-- [GROW Workshop Material - Lisbon, Portual 2019](https://hackmd.io/@oscgonfer/H15Z76GrH)
-- [iScape Summer School - Hasselt, Belgium 2019](https://docs.google.com/presentation/d/1MPvRuPvP9vKRDUhleZfvJPmNhQXuLeP7jc-VCzA7IQM/edit?usp=sharing)

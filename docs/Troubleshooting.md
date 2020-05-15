@@ -1,4 +1,4 @@
-:construction_worker: Troubleshooting
+Troubleshooting
 ==========================
 
 ![](https://i.imgur.com/iI3Bu6F.jpg)
